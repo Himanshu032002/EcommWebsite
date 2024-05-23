@@ -1,0 +1,74 @@
+/* Signup.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background-image: url('https://images.unsplash.com/photo-1602359337719-a8bcbd1f7b51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1hem9ufGVufDB8fDB8fHww'); /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Use rgba for a slightly transparent background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .container button {
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    color: #111;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #ddb347;
+  }
+  
+  .link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link p {
+    color: #666;
+  }
+  
+  .link a {
+    color: #007185;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
+  
